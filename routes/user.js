@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const {loginPage, dashboard, loginProcess} = require(". ./controllers/userControllers");
+const {loginPage, dashboard, loginProcess} = require("../controllers/userControllers");
 
 
 router.get("/", loginPage);
